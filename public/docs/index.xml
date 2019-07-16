@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenResty 相关文档 on DocDock Documentation</title>
+    <link>/docs/</link>
+    <description>Recent content in OpenResty 相关文档 on DocDock Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jul 2019 00:03:48 +0800</lastBuildDate>
+    
+	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lua-nginx-module</title>
+      <link>/docs/openresty-doc/</link>
+      <pubDate>Tue, 16 Jul 2019 00:03:48 +0800</pubDate>
+      
+      <guid>/docs/openresty-doc/</guid>
+      <description>Name ngx_http_lua_module - Embed the power of Lua into Nginx HTTP Servers.
+This module is a core component of OpenResty. If you are using this module, then you are essentially using OpenResty :)
+This module is not distributed with the Nginx source. See the installation instructions.
+Table of Contents  Name Status Version Synopsis Description Typical Uses Nginx Compatibility Installation  Building as a dynamic module C Macro Configurations  Community  English Mailing List Chinese Mailing List  Code Repository Bugs and Patches Lua/LuaJIT bytecode support System Environment Variable Support HTTP 1.</description>
+    </item>
+    
+  </channel>
+</rss>

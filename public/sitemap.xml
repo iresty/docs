@@ -3,29 +3,72 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/docs/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
   </url>
   
   <url>
     <loc>/apisix/</loc>
+    <lastmod>2019-07-15T23:11:14+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/apisix/ok/</loc>
+    <loc>/apisix/quickstart/</loc>
+    <lastmod>2019-07-15T23:11:14+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>/categories/apisix/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/docs/openresty-doc/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/xxxx/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/xxxxx/</loc>
+    <lastmod>2019-07-16T00:03:48+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/07/start/</loc>
+    <lastmod>2019-07-15T23:11:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/07/start/</loc>
+    <lastmod>2019-07-15T23:11:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
     <priority>0</priority>
   </url>
   

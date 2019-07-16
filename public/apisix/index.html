@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DocDock Documentation</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2019-07-15T23:57:36 CST">
+<title>test :: DocDock Documentation</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/theme-flex/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/";
+</script>
+<meta name="description" content="">
+
+
+
+    
+  </head>
+  <body data-url="/apisix/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <a class="baselink" href="/">DocDock Documentation</a>
+  
+
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+  <nav class="shortcuts">
+    <li class="" role="">
+      <a href="https://github.com/vjeantet/hugo-theme-docdock"  rel="noopener">
+        <i class='fa fa-github'></i> <label>Github repo</label>
+      </a>
+    </li>
+    <li class="" role="">
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"  rel="noopener">
+        <i class='fa fa-cloud-download'></i> <label>Download</label>
+      </a>
+    </li>
+    <li class="" role="">
+      <a href="https://gohugo.io/"  rel="noopener">
+        <i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>
+      </a>
+    </li>
+    <li class="" role="">
+      <a href="/credits"  rel="noopener">
+        <i class='fa fa-bullhorn'></i> <label>Credits</label>
+      </a>
+    </li>
+  </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+      <li data-nav-id="/" class="dd-item">
+        <a href="/">
+          <i class="fa fa-fw fa-home"></i>
+        </a>
+      </li>
+    <li data-nav-id="/apisix/" class="dd-item parent active haschildren
+        ">
+      <div>
+      <a href="/apisix/">test</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/apisix/ok/" class="dd-item
+        ">
+      <div>
+      <a href="/apisix/ok/">vvvv</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+
+
+
+
+    </ul>
+    <section>
+    </section>
+  </aside>
+  <section class="page">
+
+    <div class="nav-select">
+      <center>Navigation :
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/apisix/"  selected>
+   test</option> 
+    <option value="/apisix/ok/" >
+  - 
+   vvvv</option>
+  
+
+
+
+        </select>
+      </center>
+    </div>
+    <div>
+      <div class="searchbox">
+        <input data-search-input id="search-by" type="text" placeholder="Search...">
+      </div>
+      <script type="text/javascript" src="/js/lunr.min.js"></script>
+      <script type="text/javascript" src="/js/auto-complete.js"></script>
+      <link href="/css/auto-complete.css" rel="stylesheet">
+      <script type="text/javascript">
+        { { if .Site.IsMultiLingual } }
+        var baseurl = "\/";
+        { { else } }
+        var baseurl = "\/";
+        { { end } }
+      </script>
+      <script type="text/javascript" src="/js/search.js"></script>
+    </div>
+
+
+    <h1>test</h1>
+    
+    
+    
+
+
+
+<h3 id="wed">wed：</h3>
+
+<p><a href="/tech">技术</a></p>
+
+<ul>
+<li><a href="#synopsis">Synopsis</a></li>
+<li><a href="#description">Description</a></li>
+<li><a href="#typical-uses">Typical Uses</a></li>
+<li><a href="#nginx-compatibility">Nginx Compatibility</a></li>
+<li><a href="#installation">Installation</a>
+
+<ul>
+<li><a href="#building-as-a-dynamic-module">Building as a dynamic module</a></li>
+<li><a href="#c-macro-configurations">C Macro Configurations</a></li>
+</ul></li>
+<li><a href="#community">Community</a>
+
+<ul>
+<li><a href="#english-mailing-list">English Mailing List</a></li>
+<li><a href="#chinese-mailing-list">Chinese Mailing List</a></li>
+</ul></li>
+<li><a href="#code-repository">Code Repository</a></li>
+<li><a href="#bugs-and-patches">Bugs and Patches</a></li>
+<li><a href="#lualuajit-bytecode-support">Lua/LuaJIT bytecode support</a></li>
+<li><a href="#system-environment-variable-support">System Environment Variable Support</a></li>
+<li><a href="#http-10-support">HTTP 1.0 support</a></li>
+<li><a href="#statically-linking-pure-lua-modules">Statically Linking Pure Lua Modules</a></li>
+<li><a href="#data-sharing-within-an-nginx-worker">Data Sharing within an Nginx Worker</a></li>
+<li><a href="#known-issues">Known Issues</a>
+
+<ul>
+<li><a href="#tcp-socket-connect-operation-issues">TCP socket connect operation issues</a></li>
+<li><a href="#lua-coroutine-yieldingresuming">Lua Coroutine Yielding/Resuming</a></li>
+<li><a href="#lua-variable-scope">Lua Variable Scope</a></li>
+<li><a href="#locations-configured-by-subrequest-directives-of-other-modules">Locations Configured by Subrequest Directives of Other Modules</a></li>
+<li><a href="#cosockets-not-available-everywhere">Cosockets Not Available Everywhere</a></li>
+<li><a href="#special-escaping-sequences">Special Escaping Sequences</a></li>
+<li><a href="#mixing-with-ssi-not-supported">Mixing with SSI Not Supported</a></li>
+<li><a href="#spdy-mode-not-fully-supported">SPDY Mode Not Fully Supported</a></li>
+<li><a href="#missing-data-on-short-circuited-requests">Missing data on short circuited requests</a></li>
+</ul></li>
+<li><a href="#todo">TODO</a></li>
+<li><a href="#changes">Changes</a></li>
+<li><a href="#test-suite">Test Suite</a></li>
+<li><a href="#copyright-and-license">Copyright and License</a></li>
+<li><a href="#see-also">See Also</a></li>
+<li><a href="#directives">Directives</a></li>
+<li><a href="#nginx-api-for-lua">Nginx API for Lua</a></li>
+<li><a href="#obsolete-sections">Obsolete Sections</a>
+
+<ul>
+<li><a href="#special-pcre-sequences">Special PCRE Sequences</a></li>
+</ul></li>
+</ul>
+
+
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/" title="test"> <i class="fa fa-chevron-left"></i><label>test</label></a>
+    <a class="nav nav-next" href="/apisix/ok/" title="vvvv" style="margin-right: 0px;"><label>vvvv</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/apisix/_index.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+    
+  </div>
+
+
+	<div>
+
+
+  
+    Create a content/_footer.md file to customize the footer content
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/js/clipboard.min.js"></script>
+
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<script src="/js/featherlight.min.js"></script>
+
+
+
+<script src="/theme-flex/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

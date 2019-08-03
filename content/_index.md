@@ -14,4 +14,4 @@ weight: -270
 * [ngx_postgres](https://github.com/FRiCKLE/ngx_postgres)
 * [ngx_redis2](http://github.com/openresty/redis2-nginx-module)
 * [ngx_redis](http://wiki.nginx.org/HttpRedisModule)
-* [ngx_proxy](http://nginx.org/en/docs/http/ngx_http_proxy_module.html
+* [ngx_fastcgi](http://nginx.org/en/docs/http/ngx_http_fastcgi_module.html)
